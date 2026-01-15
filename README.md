@@ -49,10 +49,14 @@
 
 ## Environment
 
-Hermes is pre-installed in our Docker image, which is available at:
+Hermes is pre-installed in our Docker image, and you can get the corresponding `.tar` file from:
 
 https://drive.google.com/file/d/1xnokXJqA_Ij0hJCc3vYQUXwmEH6xqMHX/view?usp=sharing
 
+Then, you can load the Docker image by using:
+```bash
+docker load -i /path/to/tar
+```
 The executable path is:
 
 ```bash
